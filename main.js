@@ -9,5 +9,10 @@ for (var i = 0; i < hand.length; i++) {
     continue;
   }
 
+  if (hand[i] === 'J' || hand[i] === 'Q' || hand[i] === 'K'){
+    sum += 10;
+    continue;
+  }
+
 }
 }

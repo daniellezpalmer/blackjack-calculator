@@ -25,4 +25,5 @@ for (let i = 0; i < aces.length; i++) {
     sum += 1;
   }
 }
+return sum;
 }

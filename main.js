@@ -14,5 +14,10 @@ for (var i = 0; i < hand.length; i++) {
     continue;
   }
 
+sum += parseInt(hand[i]);
+
 }
+
+
+
 }

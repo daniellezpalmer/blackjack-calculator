@@ -19,6 +19,10 @@ sum += parseInt(hand[i]);
 }
 
 for (let i = 0; i < aces.length; i++) {
-
+  if (sum <= 10) {
+    sum += 11;
+  } else {
+    sum += 1;
+  }
 }
 }

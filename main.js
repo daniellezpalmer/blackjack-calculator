@@ -18,6 +18,7 @@ sum += parseInt(hand[i]);
 
 }
 
+for (let i = 0; i < aces.length; i++) {
 
-
+}
 }
